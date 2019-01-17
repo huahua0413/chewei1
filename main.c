@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 struct point{
     int x;
     int y;
@@ -47,7 +48,25 @@ int main(){
                 scanf("%c",&xx);
             }
         }
+        if(code == 3){
+            printf("suoyoucheliangweizhiruxia: \n");
+            for(int i = 0; i < index; i++){
+                printf("di%dgecheliangdeweizhiwei(%d,%d)\n",i+1,arr[i].x,arr[i].y);
+            }
+            printf("\ndianjihuichejixu\n");
+            char xx;
+            scanf("%c",&xx);
+            scanf("%c",&xx);
+        }
+        if(code == 4){
+
+        }
+        if(code == 5){
+            printf("tuichuyingyong\n");
+            break;
+        }
+    }
 
     return 0;
-    }
+    
 }
